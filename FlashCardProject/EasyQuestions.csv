@@ -1,0 +1,10 @@
+What are the three areas of JVM?# Stack, Heap, Method.
+What are local variables?# All variables declared inside of a method are local variables.
+What are instance variables?# Instance variables are non-static variables which are defined in a class outside any method or constructor.
+What is an object?# An object is an instantiation of a class into the heap memory of the computer.
+What is a class?# A class is the set of instructions that the JVM uses to instantiate an object.
+What are other names for instance variables?# Attributes. fields. members variables. state.
+Where are objects stored?# Objects are stored in the heap.
+How do you tell if a variable is a method?# If you see () behind a variable name then it is a method.
+How do you tell if variables are reference variables?# Reference variables always start with a captial letter.
+How do you tell if variables are primitive variables?# Primitive variables start with lower case and store a value.

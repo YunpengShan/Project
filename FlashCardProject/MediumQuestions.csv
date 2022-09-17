@@ -1,0 +1,10 @@
+what is the Stack?# The Stack is an organized area in memory where stack frames are created and destroyed.
+Where are local variables stored?# Local variables are stored in the current stack frame.
+What is stored in reference variables?# The address of that object instantiated in the heap is stored in reference variables.
+What is an Array?# An array is an object that contains a bunch of one particular type of variable and the size of an array is fixed.
+How do you add more elements into an array?# Create a bigger array that can hold more elemets.
+What is an ArrayList?# ArrayList is dynamic and resizable array. which means it can add and remove elements after it is created and it is capable of holding objects of multiple types.
+What can Enumerations do?# Enums allow us to force a list of certain values that a variable can be set to and Enums can cut down on spelling mistakes.
+How do you protect our code from bad programmers?# Encapsulate our instance variables by making them private.
+How do you access private instance variables?# By using setters and getters to access private instance variables. 
+How do you inherit things from te parent class?# By using extends after the class name to inherit from the parent class.

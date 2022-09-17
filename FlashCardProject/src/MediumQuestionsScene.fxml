@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="flashCardPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="355.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MediumQuestionsController">
+   <children>
+      <Button layoutX="78.0" layoutY="152.0" mnemonicParsing="false" onMouseClicked="#previousQuestion" prefHeight="27.0" prefWidth="55.0" text="&lt;-" />
+      <Button fx:id="nextButton" layoutX="223.0" layoutY="153.0" mnemonicParsing="false" onMouseClicked="#nextQuestion" prefHeight="25.0" prefWidth="55.0" text="-&gt;" />
+      <TextArea fx:id="answerText" layoutX="78.0" layoutY="186.0" prefHeight="200.0" prefWidth="200.0" text="Click Answer button for answers" wrapText="true" />
+      <Text fx:id="questionText" layoutX="72.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Java Flash Card" textAlignment="CENTER" wrappingWidth="210.47975158691406" />
+      <Button fx:id="showAnswer" layoutX="150.0" layoutY="153.0" mnemonicParsing="false" onAction="#handleAnswerButton" text="Answer" />
+      <Accordion layoutX="14.0" layoutY="69.0" />
+      <Accordion layoutX="14.0" layoutY="94.0" />
+      <Label layoutX="102.0" layoutY="14.0" text="Medium Questions" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Text fx:id="questionNumber" layoutX="82.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Questions" textAlignment="CENTER" wrappingWidth="190.42520141601562" />
+   </children>
+</Pane>

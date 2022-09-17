@@ -1,0 +1,10 @@
+Why is compiling course code into byte code better than directly into machine code?# It is because you only need to write one source code and compiled it into byte code, any machine with JVM can use that byte code for particular operating system.
+What happens to the curret stack frame whe a method is entered?# Every time a method is entered, a new stack frame is created on the top of the stack.
+What happens to the current stack frame when a method is exited?# The current stack frame is destroyed.
+What happens to the local variales when the stack frame is destroyed?# The local variables that were stored in the stack frame are also destroyed.
+When a program is running what local variables can JVM see?# JVM can only see the local variablesin the current stack frame.
+What is an abstract class?# An abstract class is a class that is declared abstract, it may or may not include abstract methods, and it can not be instantiated, but they can be subclassed.
+What can polymorphism do?# polymorphism refers to the ability of a class to prvide different implementations of a method, depending on the type of object that is passed to the method. In short, it allows us to perform the same cation in many different ways.
+Why is try catch important to include?# By adding try catch block, java can deal with the exceptons that can happen in your code, like display an error message.
+Why is read file a good way to retrieve text data?# Because it is not easy to write a huge amound text data inside an IDE, but it is easy to write them in a text edior, that can save us a lot of time and make our code cleaner.
+Why is making our code loose coupling important?# Because loose coupled code in a class won't impact other class significantly.
